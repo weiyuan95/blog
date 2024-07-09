@@ -1,0 +1,53 @@
+.markdown {
+  @apply text-lg leading-relaxed;
+}
+
+.markdown p,
+.markdown blockquote {
+  @apply my-6;
+}
+
+.markdown ul {
+  @apply list-disc pl-6 my-6;
+}
+
+.markdown ol {
+  @apply list-decimal pl-6 my-6;
+}
+
+.markdown li {
+  @apply my-2
+}
+
+.markdown h2 {
+  @apply text-3xl mt-12 mb-4 leading-snug;
+}
+
+.markdown h3 {
+  @apply text-2xl mt-8 mb-4 leading-snug;
+}
+
+/* `code` related CSS copied from https://rehype-pretty.pages.dev/#line-numbers */
+.markdown code {
+  counter-reset: line;
+}
+
+.markdown code > [data-line]::before {
+  counter-increment: line;
+  content: counter(line);
+
+  /* Other styling */
+  display: inline-block;
+  width: 1rem;
+  margin-right: 2rem;
+  text-align: right;
+  color: gray;
+}
+
+.markdown code[data-line-numbers-max-digits="2"] > [data-line]::before {
+  width: 2rem;
+}
+
+.markdown code[data-line-numbers-max-digits="3"] > [data-line]::before {
+  width: 3rem;
+}

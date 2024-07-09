@@ -1,0 +1,6 @@
+# Build artifacts:
+.next
+node_modules
+
+# Idea:
+.idea
