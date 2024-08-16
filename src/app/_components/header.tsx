@@ -15,6 +15,10 @@ export default function Header() {
             <Link href="/about" className="hover:underline">
               About
             </Link>
+            |
+            <Link href="https://moneytracker.weiyuan.dev" className="hover:underline">
+              MoneyTracker
+            </Link>
           </div>
 
           <div className="flex gap-3 md:gap-6 items-center">

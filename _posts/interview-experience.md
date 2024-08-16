@@ -2,6 +2,7 @@
 title: 'An interview experience'
 date: '2024-07-30T15:12:58.010Z'
 ---
+_Edited on 16 Aug 2024_
 ## Interviews...
 I've read some posts about going for interviews that seem tough - "Don't judge yourself before going for an interview,
 let the interviewer do that for you". Heck, I thought, why not give it a shot. Since I'm currently a Senior Software Developer,
@@ -20,13 +21,11 @@ the application was secure, in the sense that no plain-text private keys were st
 Although this is very important in the context of a Wallet-as-a-Service application, the solution of making sure that the private
 key is encrypted, in-transit and at-rest, is not a very complex one. If that sounds unimpressive, the interviewer was not impressed either.
 
-I wish I could have come up with an answer that dealt with the scale of the application, or the complexity of dealing with
-the many different moving parts of the system. Unfortunately, Levain never reached that level of maturity.
+I've realised that the key to answering such questions is to really think about _what_ I've done and accomplished at my time in Levain.
+I've worked on a lot of things - big and small - but I've never really thought about what was the most challenging. If asked again,
+I'd probably talk about dealing with the implementation of _asynchronously collecting M transaction signatures for a multi-signature wallet with
+N owners and still dealing with a monotonically increasing nonce_. That's a mouthful, isn't it?
 
-I genuinely hope I never get this question again with my current experience. If I do, I'll probably answer about my work on the
-Quantum bridge, a centralised bridge between DeFiChain and Ethereum. The bridging
-mechanism of `UI -> check account balance on DeFiChain -> trigger Ethereum contract which releases funds` was definitely
-a lot more technically challenging.
 
 **What makes Redis fast?**
 
@@ -57,11 +56,11 @@ I'd much rather participate in some system design, code out a technical assessme
 or even pair-program with the interviewer. I think that would be a much better way to gauge a candidate's
 skill. Unfortunately, this is the way the industry works, and that's all there is to say about it.
 
-It's time to put my ego aside and also apply for junior roles, even though there will most definitely be a pay cut. I do understand
+It's time to put my ego aside and also apply for more junior roles, even though there will most definitely be a pay cut. I do understand
 that what a 'Senior' engineer is in one company might be a 'Junior' engineer in another. I'll need to keep that in mind too.
 
 In my head, as long as I can learn and further myself even more - carve a niche for myself - I'll be happy. Does it need to be
-in Web3? Not necessarily. I'm open to almost anything at this point. As long as I feel that it's a good fit for me, and that
+in Web3/Crypto space? Not necessarily. I'm open to almost anything at this point. As long as I feel that it's a good fit for me, and that
 I'll be taking away something concrete from the role, I'm game.
 
 
