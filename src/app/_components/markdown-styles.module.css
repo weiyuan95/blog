@@ -27,6 +27,10 @@
   @apply text-2xl mt-8 mb-4 leading-snug;
 }
 
+.markdown a {
+  @apply underline text-blue-600 visited:text-purple-600;
+}
+
 /* `code` related CSS copied from https://rehype-pretty.pages.dev/#line-numbers */
 .markdown code {
   counter-reset: line;
