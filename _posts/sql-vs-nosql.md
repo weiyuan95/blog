@@ -1,5 +1,5 @@
 ---
-title: 'Comparing read performance between different database types'
+title: 'SQL vs NOSQL read performance'
 date: '2024-07-09T11:44:01.322Z'
 ---
 

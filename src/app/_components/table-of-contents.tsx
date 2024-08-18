@@ -12,7 +12,7 @@ export default function TableOfContents() {
           <div key={post.slug} className="py-2">
             {/*<div className="grid grid-cols-1 md:grid-cols-2 gap-1 md:gap-5 ">*/}
             <div className="flex">
-              <DateFormatter className="w-[60px] md:w-auto pr-2" dateString={post.date} />
+              <DateFormatter className="w-auto pr-3" dateString={post.date} />
               <Link className="underline" href={`posts/${post.slug}`}>
                 {post.title}
               </Link>

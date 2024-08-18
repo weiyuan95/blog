@@ -9,7 +9,7 @@ export default function DateFormatter({ dateString, className }: Props) {
   const date = parseISO(dateString);
   return (
     <time className={className} dateTime={dateString}>
-      {format(date, 'LLL	dd, yyyy')}
+      {format(date, 'dd/mm/yyyy')}
     </time>
   );
 }

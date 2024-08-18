@@ -5,9 +5,9 @@ import { ReactElement, SVGProps } from 'react';
 export default function Header() {
   return (
     <Container>
-      <h2 className="text-xl md:text-2xl font-bold tracking-tight md:tracking-tighter leading-tight mb-8 mt-8">
+      <h2 className="text-md md:text-2xl font-bold tracking-tight md:tracking-tighter leading-tight my-8">
         <div className="flex justify-between">
-          <div className="flex gap-2">
+          <div className="flex gap-1 md:gap-2">
             <Link href="/" className="hover:underline">
               Posts
             </Link>
@@ -21,7 +21,7 @@ export default function Header() {
             </Link>
           </div>
 
-          <div className="flex gap-3 md:gap-6 items-center">
+          <div className="flex gap-1 md:gap-6 items-center">
             <Link href="https://github.com/weiyuan95">
               <GitHubIcon />
             </Link>
